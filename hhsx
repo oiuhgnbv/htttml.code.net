@@ -1,0 +1,37 @@
+# Create a new directory for your website
+mkdir my_website
+
+# Change directory to your website
+cd my_website
+
+# Initialize a Git repository
+git init
+
+# Create an index.html file
+touch index.html
+
+# Open the index.html file in a text editor
+gedit index.html
+
+# Add some HTML to the index.html file
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website</title>
+</head>
+<body>
+<h1>My Website</h1>
+<p>This is my website.</p>
+</body>
+</html>
+
+# Save the index.html file
+
+# Commit your changes to Git
+git add index.html
+git commit -m "Initial commit"
+
+# Push your changes to GitHub
+git push origin master
+
+# Your website is now live!
